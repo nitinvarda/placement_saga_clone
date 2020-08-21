@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import LandingPage from './components/LandingPage';
 import DsAlgo from './components/DsAlgo';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       {/* <Navbar /> */}
 
       <LandingPage />
-      {/* <DsAlgo /> */}
+      <DsAlgo />
     </div>
   );
 }

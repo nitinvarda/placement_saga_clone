@@ -133,12 +133,12 @@ const LandingPage = () => {
             </div>
             <hr />
             <div className=" companies"  >
-                <img src="https://logos-world.net/wp-content/uploads/2020/06/Adobe-Logo.png" width="160px" height="100px" style={{ marginTop: -10 }} />
-                <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png" width="160px" height="80px" style={{ marginTop: 10 }} />
-                <img src="https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-background-1.png" width="200px" height="50px" style={{ marginTop: 10 }} />
-                <img src="https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo.png" width="160px" height="60px" style={{ marginTop: 10 }} />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png" width="160px" height="50px" style={{ marginTop: 12 }} />
-                <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Paytm-Logo-With-White-Border-PNG-image-1024x325.png" width="160px" height="50px" />
+                <img alt="adobe" src="https://logos-world.net/wp-content/uploads/2020/06/Adobe-Logo.png" width="160px" height="100px" style={{ marginTop: -10 }} />
+                <img alt="amazon" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png" width="160px" height="80px" style={{ marginTop: 10 }} />
+                <img alt="microsoft" src="https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-background-1.png" width="200px" height="50px" style={{ marginTop: 10 }} />
+                <img alt="flipkart" src="https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo.png" width="160px" height="60px" style={{ marginTop: 10 }} />
+                <img alt="google" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1920px-Google_2015_logo.svg.png" width="160px" height="50px" style={{ marginTop: 12 }} />
+                <img alt="paytm" src="https://www.searchpng.com/wp-content/uploads/2019/02/Paytm-Logo-With-White-Border-PNG-image-1024x325.png" width="160px" height="50px" />
             </div>
 
         </div>
