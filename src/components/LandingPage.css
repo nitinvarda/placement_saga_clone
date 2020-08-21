@@ -1,0 +1,591 @@
+.first-slide{
+    
+    border:2px solid #3366cc;
+    height: 391px;
+    width:271px;
+    /* width: 45%; */
+    margin: auto;
+    margin-top:25px;
+    border-radius: 200px;
+    border-top-right-radius: 0px;
+    color:#3366cc;
+    background-color: #f2f2f2;
+    
+    
+    
+}
+.second-part{
+    /* padding:20px; */
+    border:2px solid #3366cc;
+    height: 391px;
+    width: 271px;
+    /* width:45%; */
+    margin: auto;
+    margin-top:50px;
+    border-radius: 200px;
+    border-bottom-left-radius: 0px;
+    background-color: #3366cc;
+    margin-left:40px
+
+}
+
+
+/* top-design */
+.top-design{
+    position: absolute;
+    /* padding-bottom:1px; */
+    top:7px;
+    
+    left:40%;
+    height: 120px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width:80px;
+    background-color: orange;
+    z-index: -1;
+   
+}
+/* bottom-design */
+.bottom-design{
+    position: absolute;
+    /* padding-bottom:1px; */
+    bottom:0;
+    /* left:365px; */
+    left:50%;
+    top:350px;
+    height: 110px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width:80px;
+    background-color: orange;
+    z-index: -1;
+   
+}
+
+/* main carousel start */
+.main{
+   width:90%;
+   margin:auto;
+   margin-top:60px;
+}
+
+
+
+.carouselStart{
+    /* background-color:grey; */
+    height: 70vh;
+    width: 100%;
+    margin:auto;
+}
+
+.main-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+/* carousel-text */
+.carouselText{
+    
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 100px;
+    width:80%;
+    margin:auto;
+}
+/*  carouselSlide */
+.carouselSlide{
+    margin-top:30px;
+    width:80%;
+    margin:auto;
+    height:500px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    /* background-color: grey; */
+}
+.c-indicator{
+    margin-top:0px;
+}
+
+/* this is direct class name */
+.carousel-inner{
+    margin-left:80px
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width:15px;
+    height:15px;
+    background-color:grey;
+
+}
+.carousel-indicators li:active{
+    color:blue;
+}
+
+
+
+
+.text-in{
+    margin-top: 250px;
+    text-align: center;
+
+}
+
+.text-side-in{
+    margin-top: 70px;
+    padding:15px;
+    text-align:left;
+    color:white;
+    /* background-color: blue; */
+    
+}
+
+.companies{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   width:90%;
+   margin:auto;
+    
+
+}
+.companies img{
+    position: relative;
+}
+.companies img:nth-child(1){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 1s;
+    /* animation-duration: infinite; */
+
+}
+.companies img:nth-child(2){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 2s;
+    
+}
+.companies img:nth-child(3){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 3s;
+    
+}
+.companies img:nth-child(4){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 4s;
+    
+}
+.companies img:nth-child(5){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 5s;
+    
+}
+.companies img:nth-child(6){
+    animation: jump;
+    animation-duration: 3s;
+    animation-iteration-count:  infinite ;
+    animation-delay: 1s;
+    
+}
+@keyframes jump{
+    0%   {bottom:0px;}
+    25%  {bottom:2px;}
+    50%  {bottom:05px;}
+    75%  {bottom:2px;}
+    100% {bottom:0px;}
+}
+
+@media only screen and (max-width: 1280px){
+    .carousel-inner{
+        margin-left:0px
+    }
+    .top-design{
+        left:36%;
+    }
+    .bottom-design{
+        left:50%;
+        top:350px;
+       
+    }
+
+   
+
+}
+@media only screen and (max-width: 1225px){
+    .main{
+        width: 100%;
+    }
+
+    .first-slide{
+        width:261px;
+        height: 371px;
+    }
+    .second-part{
+        width: 261px;
+        height:371px;
+    }
+
+    .top-design{
+        left:36%;
+    }
+    .bottom-design{
+        left:50%;
+        top:330px;
+       
+    }
+    .carousel-inner{
+        margin-left:30px
+    }
+
+}
+
+@media only screen and (max-width: 1150px){
+    .main{
+        width:100%;
+    }
+
+    .first-slide{
+        width:241px;
+        height: 331px;
+    }
+    .second-part{
+        width: 241px;
+        height:331px;
+    }
+    .top-design{
+        left:36%;
+    }
+    .bottom-design{
+        left:50%;
+        top:285px;
+    }
+    .text-in{
+        margin-top: 200px;
+        text-align: center;
+    
+    }
+
+    /* carousel text */
+    .carouselText{
+        padding-left: 0px;
+    }
+    
+    .text-side-in{
+        margin-top: 70px;
+        padding:05px;
+        text-align:left;
+        color:white;
+        /* background-color: blue; */
+        
+    }
+    .carouselSlide{
+        margin-top:50px;
+        width:80%;
+        margin:auto;
+        height:450px;
+        
+        /* background-color: grey; */
+    }
+
+}
+@media only screen and (max-width: 1080px){
+    .first-slide{
+        width:221px;
+        height: 300px;
+        
+    }
+
+
+    .second-part{
+        width: 221px;
+        height:300px;
+        
+    }
+    /* top and bottom design */
+    .top-design{
+        left:36%;
+    }
+    .bottom-design{
+        left:50%;
+        top:260px;
+    }
+
+    /* text in slide part */
+    .text-in{
+        margin-top: 180px;
+        text-align: center;
+        font-size: 21px;
+    
+    }
+    
+    .text-side-in{
+        margin-top: 70px;
+        padding:05px;
+        text-align:left;
+        color:white;
+        font-size: 21px;
+        /* background-color: blue; */
+        
+    }
+    .carouselSlide{
+        
+        width:80%;
+        margin:auto;
+        /* padding-top:30px; */
+        height:400px;
+        
+        /* background-color: grey; */
+    }
+
+}
+
+@media only screen and (max-width: 1050px){
+     /* main */
+  
+   
+
+    .first-slide{
+        width:210px;
+        height: 290px;
+        
+    }
+
+
+    .second-part{
+        width: 210px;
+        height:290px;
+        
+    }
+    .text-in{
+        margin-top: 160px;
+        text-align: center;
+        font-size: 21px;
+    
+    }
+    
+    .text-side-in{
+        margin-top: 70px;
+        padding:05px;
+        text-align:left;
+        color:white;
+        font-size: 21px;
+        /* background-color: blue; */
+        
+    }
+    .top-design{
+        left:35%;
+    }
+    .bottom-design{
+        left:50%;
+        top:250px;
+    }
+
+    .carouselStart{
+        height: 70vh;
+    }
+    .companies{
+        grid-template-columns: repeat(4,1fr);
+
+    }
+
+}
+@media only screen and (max-width: 1024px){
+
+    /* main */
+    .main{
+        width:100%;
+    }
+    
+
+    
+    .companies{
+        grid-template-columns: repeat(4,1fr);
+
+    }
+
+  
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* first slide */
+    .first-slide{
+        width:241px;
+        height: 331px;
+
+    }
+    .second-part{
+        width:241px;
+        height: 331px;
+        
+    }
+    .main-carousel{
+        flex-direction: column;
+    }
+    .companies{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .top-design{
+        left:37%;
+    }
+    .bottom-design{
+        left:54%;
+        top:285px;
+    }
+    /* text in first-side */
+    .text-in{
+        margin-top: 170px;
+        text-align: center;
+    
+    }
+    /* text in second part */
+    .text-side-in{
+        margin-top: 50px;
+        font-size: 25px;
+        padding:10px;
+        text-align:left;
+        color:white;
+        /* background-color: blue; */
+        
+    }
+
+    /* carousel start */
+    .carouselStart{
+        height:100vh;
+    }
+
+    /* carousel inner */
+    .carousel-inner{
+        margin-top:40px;
+    }
+   
+
+}
+@media only screen and (max-width: 768px) {
+    .first-slide{
+        width:221px;
+        height: 300px;
+
+    }
+    .second-part{
+        width:221px;
+        height: 300px;
+        
+    }
+    .top-design{
+        left:36%;
+    }
+    .bottom-design{
+        left:53%;
+        top:260px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* main carousel */
+    
+    /* first-slide */
+    .first-slide{
+        width: 165px;
+        height:215px
+    }
+    .second-part{
+        margin-left:0px;
+        width: 165px;
+        height: 215px;
+    }
+
+
+
+    /* carousel inner */
+    .carousel-inner{
+        margin-left:0px
+    }
+    /* top-design */
+    .top-design{
+        left:140px;
+        top:10px;
+        bottom:120px;
+        width:50px;
+        height:80px;
+    }   
+    
+    /* bottom-deisgn */
+    .bottom-design{
+        left:180px;
+        top:200px;
+        width:50px;
+        height:80px;
+    }
+    .carouselSlide{
+        width:100%;
+        margin:auto;
+    }
+
+
+    /* carousel start */
+    .carouselStart{
+        height: 85vh;
+    }
+    /* .carousel-indicators */
+    .carousel-indicators{
+        bottom:-30px;
+    }
+    /* text-in */
+    .text-in{
+        margin-top: 130px;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    /* text -side -in */
+    .text-side-in{
+        margin-top: 30px;
+        padding:15px;
+        text-align:left;
+        color:white;
+        font-size: 18px;
+        /* background-color: blue; */
+        
+    }
+
+
+    /* carousel-text */
+    .carouselText{
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    /* carousel-slide */
+    /* .carouselSlide{
+        flex-direction: column;
+    } */
+
+
+    
+    .companies{
+        width:90%;
+       
+        margin:auto;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
