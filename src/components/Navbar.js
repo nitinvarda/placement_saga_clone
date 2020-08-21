@@ -1,34 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false);
-    const toggle = () => {
 
-    }
-    console.log(open);
-    const Styled = styled.ul`
-        
-        display: ${({ open }) => open ? 'flex' : 'none'};
-        flex-direction: column;
-        justify-content: center;
-    
-    `;
     return (
-        <React.Fragment style={{ marginBottom: -20 }}>
+        <React.Fragment >
             <nav>
-                <Styled open={open} onClick={() => { setOpen(!open) }}>
 
-                    <a href="#" onClick={toggle} className="hamburger">
-                        <span className="bar"></span>
-                        <span className="bar"></span>
-                        <span className="bar"></span>
 
-                    </a>
-                </Styled>
+                <a href="#list" className="hamburger">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+
+                </a>
+
                 <h2 className="brand">Placement <br />Saga</h2>
-                <ul className="list-start">
+                <ul className="list-start" id="list">
                     <li className=""><h5>Question Library</h5></li>
                     <li className=""><h5>Theory Stories</h5></li>
                     <li className=""><h5>Mock Tests</h5></li>
