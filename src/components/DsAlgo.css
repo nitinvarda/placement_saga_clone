@@ -66,12 +66,42 @@
     background-color: #ff99ff;
 }
 
+@media only screen and (max-width: 1250px) {
+    .ds-list{
+        width:90%;
+        margin:auto;
+        grid-template-columns: repeat(4,1fr);
 
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .ds-list{
+        width:90%;
+        margin:auto;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .grid-list{
+
+        width: 160px;
+        
+        
+        height: 160px;
+    }
+    .grid-list h4{
+        margin-top:65px;
+        font-size: 23px;
+
+    }
+
+}
 
 @media only screen and (max-width: 600px) {
 
     .ds-list{
-        width:80%;
+        width:100%;
         margin:auto;
         grid-gap:0px;
         grid-row-gap: 10px;
@@ -79,9 +109,14 @@
     }
     .grid-list{
 
-        width: 115px;
-        margin:auto;
-        /* border-radius: 10px; */
-        height: 115px;
+        width: 150px;
+        
+        
+        height: 150px;
+    }
+    .grid-list h4{
+        margin-top:55px;
+        font-size: 20px;
+
     }
 }
