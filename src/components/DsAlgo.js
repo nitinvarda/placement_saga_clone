@@ -3,7 +3,7 @@ import './DsAlgo.css';
 
 const DsAlgo = () => {
     return (
-        <div>
+        <div style={{ marginBottom: 25 }}>
             <h1 style={{ textAlign: "center" }}>Every Topic You need for your</h1>
             <h2 style={{ textAlign: "center" }}>Coding Interview</h2>
             <br />
