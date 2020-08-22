@@ -72,8 +72,8 @@
 
 
 .carouselStart{
-    /* background-color:grey; */
-    height: 63vh;
+  
+    height: 72vh;
     width: 100%;
     margin:auto;
 }
@@ -92,7 +92,7 @@
     
     font-size: 50px;
     margin-top: 100px;
-    text-align: center;
+    text-align: left;
     padding-left: 100px;
     width:80%;
     margin:auto;
@@ -114,7 +114,8 @@
 
 /* this is direct class name */
 .carousel-inner{
-    margin-left:80px
+    margin-left:80px;
+    margin-top:40px;
 }
 
 .carousel-indicators li{
@@ -149,6 +150,7 @@
 .companies{
     display: grid;
     grid-template-columns: repeat(6,1fr);
+  
    width:90%;
    margin:auto;
     
@@ -156,6 +158,9 @@
 }
 .companies img{
     position: relative;
+    width:50%;
+    margin:auto
+    
 }
 .companies img:nth-child(1){
     animation: jump;
@@ -220,6 +225,9 @@
         top:350px;
        
     }
+    .carouselText{
+        padding-left: 40px;
+    }
 
    
 
@@ -249,12 +257,19 @@
     .carousel-inner{
         margin-left:30px
     }
+    .carouselText{
+    
+        font-size: 50px;
+        margin-top: 100px;
+        text-align: left;
+        padding-left: 50px;
+    }
 
 }
 
 @media only screen and (max-width: 1150px){
     .main{
-        width:100%;
+        /* width:100%; */
     }
 
     .first-slide{
@@ -299,6 +314,9 @@
         
         /* background-color: grey; */
     }
+    .carouselText{
+
+    }
 
 }
 @media only screen and (max-width: 1080px){
@@ -316,7 +334,7 @@
     }
     /* top and bottom design */
     .top-design{
-        left:36%;
+        left:33%;
     }
     .bottom-design{
         left:50%;
@@ -349,6 +367,10 @@
         
         /* background-color: grey; */
     }
+    .carouselStart{
+        padding:80px;
+    }
+
 
 }
 
@@ -386,7 +408,7 @@
         
     }
     .top-design{
-        left:35%;
+        left:33%;
     }
     .bottom-design{
         left:50%;
@@ -394,8 +416,10 @@
     }
 
     .carouselStart{
-        height: 63vh;
+        /* height: 70vh; */
+        padding-left:80px ;
     }
+    
     .companies{
         grid-template-columns: repeat(4,1fr);
 
@@ -408,12 +432,20 @@
     .main{
         width:100%;
     }
-    
+    .carouselStart{
+        /* height: 70vh; */
+    }
+   
 
     
     .companies{
-        grid-template-columns: repeat(4,1fr);
+        width:100%;
+        grid-template-columns: repeat(6,1fr);
 
+    }
+ 
+    .companies img{
+        width:70%;
     }
 
   
@@ -421,6 +453,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+    /* carousel text */
+    .carouselText{
+        text-align: center;
+    }
 
     /* first slide */
     .first-slide{
@@ -447,7 +483,7 @@
         left:37%;
     }
     .bottom-design{
-        left:54%;
+        left:53%;
         top:285px;
     }
     /* text in first-side */
@@ -469,12 +505,16 @@
 
     /* carousel start */
     .carouselStart{
-        height:100vh;
+        height:105vh;
+        padding:0px
     }
 
     /* carousel inner */
     .carousel-inner{
         margin-top:40px;
+    }
+    .carousel-indicators{
+        bottom:-40px;
     }
    
 
@@ -499,14 +539,18 @@
     }
     .bottom-design{
         left:53%;
-        top:260px;
+        top:258px;
     }
     .companies{
         grid-gap:15px;
         margin:auto;
-        grid-template-columns: repeat(3,1fr);
-        width:70%;
+        grid-template-columns: repeat(4,1fr);
+        width:90%;
 
+    }
+    .carouselStart{
+        
+        height: 90vh;
     }
 
 
@@ -522,7 +566,7 @@
         height:290px
     }
     .second-part{
-        margin-left:0px;
+        /* margin-left:0px; */
         width: 210px;
         height: 290px;
     }
@@ -535,19 +579,15 @@
     }
     /* top-design */
     .top-design{
-        left:358;
-        top:10px;
-        bottom:120px;
-        width:70px;
-        height:100px;
+        left:31%;
+       
     }   
     
     /* bottom-deisgn */
     .bottom-design{
-        left:50%;
-        top:65%;
-        width:70px;
-        height:100px;
+        left:51%;
+        top:62%;
+        
     }
     .carouselSlide{
         width:100%;
@@ -556,9 +596,7 @@
 
 
     /* carousel start */
-    .carouselStart{
-        height: 85vh;
-    }
+    
     /* .carousel-indicators */
     .carousel-indicators{
         bottom:-30px;
@@ -589,10 +627,7 @@
         text-align: center;
         padding-left: 0px;
     }
-    /* carousel-slide */
-    /* .carouselSlide{
-        flex-direction: column;
-    } */
+    
 
 
     
@@ -610,13 +645,18 @@
         height:270px;
     }
     .second-part{
-        margin-left:0px;
+        /* margin-left:0px; */
         width: 200px;
         height:270px;
     }
 
+
+    .top-design{
+        left:31%;
+    }
     .bottom-design{
-        top:60%;
+        top:57%;
+        left:53%;
     }
 
 }
@@ -628,12 +668,12 @@
         height:245px;
     }
     .second-part{
-        margin-left:0px;
+        /* margin-left:0px; */
         width: 180px;
         height:245px;
     }
     .top-design{
-        left:35%;
+        left:31%;
         top:2%;
         bottom:120px;
         width:70px;
@@ -642,22 +682,32 @@
     
     /* bottom-deisgn */
     .bottom-design{
-        left:50%;
-        top:53%;
+        left:53%;
+        top:50%;
         width:70px;
         
+    }
+    .carouselStart{
+        height: 85vh;
+        padding:0px
     }
    
 
 }
 
 @media only screen and (max-width: 420px) {
+    /* companies */
+    .companies{
+        width: 90%;
+       grid-gap:0px
+
+    }
     .first-slide{
         width: 165px;
         height:215px;
     }
     .second-part{
-        margin-left:0px;
+        /* margin-left:0px; */
         width: 165px;
         height:215px;
     }
@@ -679,20 +729,23 @@
     }
 
     .top-design{
-        left:33%;
+        left:30%;
         top:3%;
         bottom:120px;
         width:70px;
+        height: 100px;
       
     }   
     
     /* bottom-deisgn */
     .bottom-design{
-        left:50%;
+        left:53%;
         top:45%;
         width:70px;
+        height: 100px;
         
     }
+    
 
 
 }
@@ -705,6 +758,57 @@
         margin-left:0px;
         width: 150px;
         height:210px;
+    }
+
+    .top-design{
+        left:31%;
+        top:3%;
+
+    }
+
+    .bottom-design{
+        left:50%;
+        top:43%;
+
+    }
+    .carouselStart{
+        height: 100vh;
+    }
+    .companies{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    .first-slide{
+        width: 150px;
+        height:210px;
+    }
+    .second-part{
+        margin-left:10px;
+        width: 150px;
+        height:210px;
+    }
+
+    .top-design{
+        left:31%;
+        top:3%;
+
+    }
+
+    .bottom-design{
+        left:48%;
+        top:43%;
+
+    }
+    .carouselStart{
+        height: 105vh;
+    }
+    .carouselText{
+        margin-top:0
     }
 
 

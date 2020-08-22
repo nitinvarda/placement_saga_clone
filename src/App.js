@@ -7,12 +7,16 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Navbar />
+      <div className="App">
 
-      <LandingPage />
-      <DsAlgo />
-    </div>
+        <LandingPage />
+        <br />
+        <br />
+        <DsAlgo />
+      </div>
+    </React.Fragment>
   );
 }
 

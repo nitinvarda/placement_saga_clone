@@ -1,49 +1,64 @@
 import React from 'react';
+
 import './Navbar.css';
 // import styled from 'styled-components';
 
 const Navbar = () => {
 
     return (
-        <React.Fragment >
-            <nav>
-
-
-                <a href="#list" className="hamburger">
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-
-                </a>
-
-                <h2 className="brand">Placement <br />Saga</h2>
-                <ul className="list-start" id="list">
-                    <li className=""><h5>Question Library</h5></li>
-                    <li className=""><h5>Theory Stories</h5></li>
-                    <li className=""><h5>Mock Tests</h5></li>
-                    <li className=""><h5>Subscribe</h5></li>
+        <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#brand" className="navbar-brand" style={{ fontSize: 25, lineHeight: 1.1, textAlign: "right" }}>Placement<br /> Saga</a>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav " >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#questionlibrary" ><h5>Question Library</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#theoryseries" ><h5>Theory Series</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mocktests" ><h5>Mock Tests</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe" ><h5>Subscribe</h5></a>
+                    </li>
                 </ul>
-                <h4><button className="login-btn">Login</button></h4>
-            </nav>
-            <hr />
-        </React.Fragment>
+            </div>
+            <button className="btn btn-primary login">Login</button>
+            {/* <a className="nav-item">Login</a> */}
+
+        </nav>
+        // <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top justify-content-around" >
 
 
+        //     <a class="navbar-brand" href="#" >Navbar</a>
 
-        // <div style={{ marginLeft: 100, marginRight: 100 }}>
-        //     <nav className="navbar" style={{ padding: 0 }}>
-        //         <h3 className="navbar nav-brand" style={{ textAlign: "right" }}>Placement <br />Saga</h3>
-        //         <ul className="navbar nav-list">
-        //             <li className="navbar nav-items"><h5>Question Library</h5></li>
-        //             <li className="navbar nav-items"><h5>Theory Stories</h5></li>
-        //             <li className="navbar nav-items"><h5>Mock Tests</h5></li>
-        //             <li className="navbar nav-items"><h5>Subscribe</h5></li>
-        //             <li className="navbar nav-items"><h3><button className="btn btn-primary btn-lg" >Login</button></h3></li>
 
-        //         </ul>
-        //     </nav>
+        //     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        //         <span class="navbar-toggler-icon"></span>
+        //     </button>
 
+        // <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        //     <ul class="navbar-nav" >
+        //         <li class="nav-item">
+        //             <a class="nav-link" href="#" >Link</a>
+        //         </li>
+        //         <li class="nav-item">
+        //             <a class="nav-link" href="#" >Link</a>
+        //         </li>
+        //         <li class="nav-item">
+        //             <a class="nav-link" href="#" >Link</a>
+        //         </li>
+        //     </ul>
         // </div>
+
+        // </nav>
+
+
+
     );
 }
 

@@ -59,7 +59,7 @@ const DsAlgo = () => {
 
                 </div>
                 <div className="grid-list">
-                    <h4 style={{ marginTop: 70 }}>Bit-<br />Manipulation</h4>
+                    <h4 >Bit-<br />Manipulation</h4>
 
                 </div>
                 <div className="grid-list">

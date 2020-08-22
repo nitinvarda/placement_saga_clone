@@ -8,7 +8,7 @@
 }
 
 .grid-list{
-    
+    box-shadow: 9px 8px 8px #d9d9d9;
     width: 190px;
     margin:auto;
     /* border-radius: 10px; */
@@ -101,7 +101,7 @@
 @media only screen and (max-width: 600px) {
 
     .ds-list{
-        width:100%;
+        width:80%;
         margin:auto;
         grid-gap:0px;
         grid-row-gap: 10px;
@@ -109,14 +109,13 @@
     }
     .grid-list{
 
-        width: 150px;
+        width: 120px;
         
-        
-        height: 150px;
+        height: 120px;
     }
     .grid-list h4{
-        margin-top:55px;
-        font-size: 20px;
+        margin-top:54px;
+        font-size: 16px;
 
     }
 }
