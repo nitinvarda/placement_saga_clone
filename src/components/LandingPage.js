@@ -20,8 +20,8 @@ const LandingPage = () => {
                     <div className="main-carousel "  >
                         <div className=" carouselText" >
                             <div >
-                                <p >Master Your<br /> Destiney With<br /> <b>PlacementSaga</b></p>
-                                <button className="btn btn-primary">View Sample Question</button>
+                                <p >Master Your<br /> Destiny With<br /> <b>PlacementSaga</b></p>
+                                <button className="btn btn-primary" style={{ paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, color: "white", fontSize: 20 }}>View Sample Question</button>
 
                             </div>
                         </div>
