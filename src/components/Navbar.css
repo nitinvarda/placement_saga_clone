@@ -77,22 +77,41 @@
     width: 80%;
     margin:auto
 } */
+.login{
+    background-color:#4d79ff;
+    font-size:20px;
+    padding:10px 30px
+}
 .nav-item{
-    margin-right:60px;
+    margin-right:50px;
 }
 .navbar{
     padding:15px 130px
 }
+@media only screen and (max-width: 1024px) {
 
-
-
-@media only screen and (max-width: 765px) {
-    .login{
-        display: flex;
-        margin-right: 10px;
+    .nav-item{
+        margin-right:05px;
     }
+}
+
+@media only screen and (max-width: 900px) {
+ 
     .navbar{
         padding:0px 0px
     }
+    .nav-item{
+        margin-right:05px;
+    }
+
+}
+
+
+@media only screen and (max-width: 775px) {
+    /* .navbar{
+    padding:15px 130px
+} */
+   
+   
 
 }  
